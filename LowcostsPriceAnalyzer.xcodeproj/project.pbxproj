@@ -107,6 +107,7 @@
 				793FC1E52970B2CF00592D32 /* Sources */,
 				793FC1E62970B2CF00592D32 /* Frameworks */,
 				793FC1E72970B2CF00592D32 /* Resources */,
+				8905AD474BF609B015395832 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -164,6 +165,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		8905AD474BF609B015395832 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LowcostsPriceAnalyzer/Pods-LowcostsPriceAnalyzer-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LowcostsPriceAnalyzer/Pods-LowcostsPriceAnalyzer-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LowcostsPriceAnalyzer/Pods-LowcostsPriceAnalyzer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		FD57C2C1385594D47DF07AAC /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
