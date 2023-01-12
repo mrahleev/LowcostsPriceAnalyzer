@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6227C4E569E86338EDB19EDD /* Pods_LowcostsPriceAnalyzer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9020FA0B0922B63AA43A727 /* Pods_LowcostsPriceAnalyzer.framework */; };
 		793FC1ED2970B2CF00592D32 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 793FC1EC2970B2CF00592D32 /* AppDelegate.swift */; };
-		793FC1EF2970B2CF00592D32 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 793FC1EE2970B2CF00592D32 /* SceneDelegate.swift */; };
 		793FC1F12970B2CF00592D32 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 793FC1F02970B2CF00592D32 /* ViewController.swift */; };
 		793FC1F42970B2CF00592D32 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 793FC1F22970B2CF00592D32 /* Main.storyboard */; };
 		793FC1F62970B2D000592D32 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 793FC1F52970B2D000592D32 /* Assets.xcassets */; };
@@ -16,14 +16,16 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3FE08B13AE56955A16B89078 /* Pods-LowcostsPriceAnalyzer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LowcostsPriceAnalyzer.debug.xcconfig"; path = "Target Support Files/Pods-LowcostsPriceAnalyzer/Pods-LowcostsPriceAnalyzer.debug.xcconfig"; sourceTree = "<group>"; };
 		793FC1E92970B2CF00592D32 /* LowcostsPriceAnalyzer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LowcostsPriceAnalyzer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		793FC1EC2970B2CF00592D32 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		793FC1EE2970B2CF00592D32 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		793FC1F02970B2CF00592D32 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		793FC1F32970B2CF00592D32 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		793FC1F52970B2D000592D32 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		793FC1F82970B2D000592D32 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		793FC1FA2970B2D000592D32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A36AEC9F1163A7DBC314B909 /* Pods-LowcostsPriceAnalyzer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LowcostsPriceAnalyzer.release.xcconfig"; path = "Target Support Files/Pods-LowcostsPriceAnalyzer/Pods-LowcostsPriceAnalyzer.release.xcconfig"; sourceTree = "<group>"; };
+		F9020FA0B0922B63AA43A727 /* Pods_LowcostsPriceAnalyzer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LowcostsPriceAnalyzer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6227C4E569E86338EDB19EDD /* Pods_LowcostsPriceAnalyzer.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +45,8 @@
 			children = (
 				793FC1EB2970B2CF00592D32 /* LowcostsPriceAnalyzer */,
 				793FC1EA2970B2CF00592D32 /* Products */,
+				C11AC02D1E33CD172CE50BD1 /* Pods */,
+				B53E2995435A0858CB58808C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,8 +61,7 @@
 		793FC1EB2970B2CF00592D32 /* LowcostsPriceAnalyzer */ = {
 			isa = PBXGroup;
 			children = (
-				793FC1EC2970B2CF00592D32 /* AppDelegate.swift */,
-				793FC1EE2970B2CF00592D32 /* SceneDelegate.swift */,
+				79A83DD02970BB1D009699A6 /* Application */,
 				793FC1F02970B2CF00592D32 /* ViewController.swift */,
 				793FC1F22970B2CF00592D32 /* Main.storyboard */,
 				793FC1F52970B2D000592D32 /* Assets.xcassets */,
@@ -67,6 +71,31 @@
 			path = LowcostsPriceAnalyzer;
 			sourceTree = "<group>";
 		};
+		79A83DD02970BB1D009699A6 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				793FC1EC2970B2CF00592D32 /* AppDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		B53E2995435A0858CB58808C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F9020FA0B0922B63AA43A727 /* Pods_LowcostsPriceAnalyzer.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C11AC02D1E33CD172CE50BD1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3FE08B13AE56955A16B89078 /* Pods-LowcostsPriceAnalyzer.debug.xcconfig */,
+				A36AEC9F1163A7DBC314B909 /* Pods-LowcostsPriceAnalyzer.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,6 +103,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 793FC1FD2970B2D000592D32 /* Build configuration list for PBXNativeTarget "LowcostsPriceAnalyzer" */;
 			buildPhases = (
+				FD57C2C1385594D47DF07AAC /* [CP] Check Pods Manifest.lock */,
 				793FC1E52970B2CF00592D32 /* Sources */,
 				793FC1E62970B2CF00592D32 /* Frameworks */,
 				793FC1E72970B2CF00592D32 /* Resources */,
@@ -133,6 +163,31 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		FD57C2C1385594D47DF07AAC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LowcostsPriceAnalyzer-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		793FC1E52970B2CF00592D32 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -140,7 +195,6 @@
 			files = (
 				793FC1F12970B2CF00592D32 /* ViewController.swift in Sources */,
 				793FC1ED2970B2CF00592D32 /* AppDelegate.swift in Sources */,
-				793FC1EF2970B2CF00592D32 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +336,7 @@
 		};
 		793FC1FE2970B2D000592D32 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3FE08B13AE56955A16B89078 /* Pods-LowcostsPriceAnalyzer.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -290,11 +345,12 @@
 				DEVELOPMENT_TEAM = 827L45VHZ5;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = LowcostsPriceAnalyzer/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.travel";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UILaunchStoryboardName = "";
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -310,6 +366,7 @@
 		};
 		793FC1FF2970B2D000592D32 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A36AEC9F1163A7DBC314B909 /* Pods-LowcostsPriceAnalyzer.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -318,11 +375,12 @@
 				DEVELOPMENT_TEAM = 827L45VHZ5;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = LowcostsPriceAnalyzer/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.travel";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UILaunchStoryboardName = "";
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

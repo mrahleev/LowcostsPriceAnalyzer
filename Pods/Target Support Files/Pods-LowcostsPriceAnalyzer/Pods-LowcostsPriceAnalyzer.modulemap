@@ -1,0 +1,6 @@
+framework module Pods_LowcostsPriceAnalyzer {
+  umbrella header "Pods-LowcostsPriceAnalyzer-umbrella.h"
+
+  export *
+  module * { export * }
+}
